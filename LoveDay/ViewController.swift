@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("다시 키 입력")
+        print("다시 키 입력") //21.12.29
         
     }
 
