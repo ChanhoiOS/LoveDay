@@ -3,18 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0892D73326D5349B0040DCFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0892D73226D5349B0040DCFB /* AppDelegate.swift */; };
 		0892D73526D5349B0040DCFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0892D73426D5349B0040DCFB /* SceneDelegate.swift */; };
-		0892D73726D5349B0040DCFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0892D73626D5349B0040DCFB /* ViewController.swift */; };
 		0892D73A26D5349B0040DCFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0892D73826D5349B0040DCFB /* Main.storyboard */; };
 		0892D73C26D5349B0040DCFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0892D73B26D5349B0040DCFB /* Assets.xcassets */; };
 		0892D73F26D5349B0040DCFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0892D73D26D5349B0040DCFB /* LaunchScreen.storyboard */; };
 		0892D74A26D5349B0040DCFB /* LoveDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0892D74926D5349B0040DCFB /* LoveDayTests.swift */; };
 		0892D75526D5349B0040DCFB /* LoveDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0892D75426D5349B0040DCFB /* LoveDayUITests.swift */; };
+		08EBB565278944EB003DE052 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EBB564278944EB003DE052 /* MainView.swift */; };
+		08EBB566278944EB003DE052 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EBB564278944EB003DE052 /* MainView.swift */; };
+		08EBB567278944EB003DE052 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EBB564278944EB003DE052 /* MainView.swift */; };
+		08EBB56927894567003DE052 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EBB56827894567003DE052 /* MainViewModel.swift */; };
+		08EBB56A27894567003DE052 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EBB56827894567003DE052 /* MainViewModel.swift */; };
+		08EBB56B27894567003DE052 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EBB56827894567003DE052 /* MainViewModel.swift */; };
+		0A902AD5D44A0710891F99AE /* Pods_LoveDay_LoveDayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B15BD40F6E17626EE062D5B /* Pods_LoveDay_LoveDayUITests.framework */; };
+		68B3EA46F93230DA22D6125B /* Pods_LoveDayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 492D2CB67E00238CC11CC036 /* Pods_LoveDayTests.framework */; };
+		857751CD7C7F50FC93A18DE0 /* Pods_LoveDay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62369DC80E3828879B009D7E /* Pods_LoveDay.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +46,6 @@
 		0892D72F26D5349B0040DCFB /* LoveDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0892D73226D5349B0040DCFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0892D73426D5349B0040DCFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0892D73626D5349B0040DCFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0892D73926D5349B0040DCFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0892D73B26D5349B0040DCFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0892D73E26D5349B0040DCFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,17 @@
 		0892D75026D5349B0040DCFB /* LoveDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0892D75426D5349B0040DCFB /* LoveDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveDayUITests.swift; sourceTree = "<group>"; };
 		0892D75626D5349B0040DCFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08EBB564278944EB003DE052 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		08EBB56827894567003DE052 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		3B15BD40F6E17626EE062D5B /* Pods_LoveDay_LoveDayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveDay_LoveDayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		492D2CB67E00238CC11CC036 /* Pods_LoveDayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveDayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F821C253FEDD782A4E17A5 /* Pods-LoveDay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveDay.debug.xcconfig"; path = "Target Support Files/Pods-LoveDay/Pods-LoveDay.debug.xcconfig"; sourceTree = "<group>"; };
+		52513F4DA340DC09576D188D /* Pods-LoveDayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveDayTests.debug.xcconfig"; path = "Target Support Files/Pods-LoveDayTests/Pods-LoveDayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		62369DC80E3828879B009D7E /* Pods_LoveDay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveDay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D5433D41481C9A144F66FF /* Pods-LoveDayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveDayTests.release.xcconfig"; path = "Target Support Files/Pods-LoveDayTests/Pods-LoveDayTests.release.xcconfig"; sourceTree = "<group>"; };
+		A1ED2DFC4DCE05EE5D908EB2 /* Pods-LoveDay-LoveDayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveDay-LoveDayUITests.release.xcconfig"; path = "Target Support Files/Pods-LoveDay-LoveDayUITests/Pods-LoveDay-LoveDayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D6BE1AFFEF2D872A183591C1 /* Pods-LoveDay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveDay.release.xcconfig"; path = "Target Support Files/Pods-LoveDay/Pods-LoveDay.release.xcconfig"; sourceTree = "<group>"; };
+		DD3B478725C9D1BDCCA5ACBD /* Pods-LoveDay-LoveDayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveDay-LoveDayUITests.debug.xcconfig"; path = "Target Support Files/Pods-LoveDay-LoveDayUITests/Pods-LoveDay-LoveDayUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				857751CD7C7F50FC93A18DE0 /* Pods_LoveDay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68B3EA46F93230DA22D6125B /* Pods_LoveDayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A902AD5D44A0710891F99AE /* Pods_LoveDay_LoveDayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				0892D74826D5349B0040DCFB /* LoveDayTests */,
 				0892D75326D5349B0040DCFB /* LoveDayUITests */,
 				0892D73026D5349B0040DCFB /* Products */,
+				40ACD5BF16620EF574BE2FF6 /* Pods */,
+				D3A7E696B9DE7F79C85E3E5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +124,12 @@
 			children = (
 				0892D73226D5349B0040DCFB /* AppDelegate.swift */,
 				0892D73426D5349B0040DCFB /* SceneDelegate.swift */,
-				0892D73626D5349B0040DCFB /* ViewController.swift */,
 				0892D73826D5349B0040DCFB /* Main.storyboard */,
 				0892D73B26D5349B0040DCFB /* Assets.xcassets */,
 				0892D73D26D5349B0040DCFB /* LaunchScreen.storyboard */,
 				0892D74026D5349B0040DCFB /* Info.plist */,
+				08EBB564278944EB003DE052 /* MainView.swift */,
+				08EBB56827894567003DE052 /* MainViewModel.swift */,
 			);
 			path = LoveDay;
 			sourceTree = "<group>";
@@ -128,6 +152,29 @@
 			path = LoveDayUITests;
 			sourceTree = "<group>";
 		};
+		40ACD5BF16620EF574BE2FF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50F821C253FEDD782A4E17A5 /* Pods-LoveDay.debug.xcconfig */,
+				D6BE1AFFEF2D872A183591C1 /* Pods-LoveDay.release.xcconfig */,
+				DD3B478725C9D1BDCCA5ACBD /* Pods-LoveDay-LoveDayUITests.debug.xcconfig */,
+				A1ED2DFC4DCE05EE5D908EB2 /* Pods-LoveDay-LoveDayUITests.release.xcconfig */,
+				52513F4DA340DC09576D188D /* Pods-LoveDayTests.debug.xcconfig */,
+				67D5433D41481C9A144F66FF /* Pods-LoveDayTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D3A7E696B9DE7F79C85E3E5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62369DC80E3828879B009D7E /* Pods_LoveDay.framework */,
+				3B15BD40F6E17626EE062D5B /* Pods_LoveDay_LoveDayUITests.framework */,
+				492D2CB67E00238CC11CC036 /* Pods_LoveDayTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0892D75926D5349B0040DCFB /* Build configuration list for PBXNativeTarget "LoveDay" */;
 			buildPhases = (
+				F86ECB6176B4E40C46B0A176 /* [CP] Check Pods Manifest.lock */,
 				0892D72B26D5349B0040DCFB /* Sources */,
 				0892D72C26D5349B0040DCFB /* Frameworks */,
 				0892D72D26D5349B0040DCFB /* Resources */,
+				A592CDCB7BEF1BD362A44816 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0892D75C26D5349B0040DCFB /* Build configuration list for PBXNativeTarget "LoveDayTests" */;
 			buildPhases = (
+				0F86271DD8CD609835D31F8E /* [CP] Check Pods Manifest.lock */,
 				0892D74126D5349B0040DCFB /* Sources */,
 				0892D74226D5349B0040DCFB /* Frameworks */,
 				0892D74326D5349B0040DCFB /* Resources */,
@@ -170,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0892D75F26D5349B0040DCFB /* Build configuration list for PBXNativeTarget "LoveDayUITests" */;
 			buildPhases = (
+				494BAE7AAE082A48B4A82C17 /* [CP] Check Pods Manifest.lock */,
 				0892D74C26D5349B0040DCFB /* Sources */,
 				0892D74D26D5349B0040DCFB /* Frameworks */,
 				0892D74E26D5349B0040DCFB /* Resources */,
+				ACFBF5533D1F5A8B702C23E4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +305,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F86271DD8CD609835D31F8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoveDayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		494BAE7AAE082A48B4A82C17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoveDay-LoveDayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A592CDCB7BEF1BD362A44816 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoveDay/Pods-LoveDay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoveDay/Pods-LoveDay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoveDay/Pods-LoveDay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACFBF5533D1F5A8B702C23E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoveDay-LoveDayUITests/Pods-LoveDay-LoveDayUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoveDay-LoveDayUITests/Pods-LoveDay-LoveDayUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoveDay-LoveDayUITests/Pods-LoveDay-LoveDayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F86ECB6176B4E40C46B0A176 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoveDay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0892D72B26D5349B0040DCFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0892D73726D5349B0040DCFB /* ViewController.swift in Sources */,
 				0892D73326D5349B0040DCFB /* AppDelegate.swift in Sources */,
+				08EBB565278944EB003DE052 /* MainView.swift in Sources */,
 				0892D73526D5349B0040DCFB /* SceneDelegate.swift in Sources */,
+				08EBB56927894567003DE052 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +425,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0892D74A26D5349B0040DCFB /* LoveDayTests.swift in Sources */,
+				08EBB566278944EB003DE052 /* MainView.swift in Sources */,
+				08EBB56A27894567003DE052 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +435,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0892D75526D5349B0040DCFB /* LoveDayUITests.swift in Sources */,
+				08EBB567278944EB003DE052 /* MainView.swift in Sources */,
+				08EBB56B27894567003DE052 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +593,7 @@
 		};
 		0892D75A26D5349B0040DCFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50F821C253FEDD782A4E17A5 /* Pods-LoveDay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +612,7 @@
 		};
 		0892D75B26D5349B0040DCFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6BE1AFFEF2D872A183591C1 /* Pods-LoveDay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +631,7 @@
 		};
 		0892D75D26D5349B0040DCFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52513F4DA340DC09576D188D /* Pods-LoveDayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +653,7 @@
 		};
 		0892D75E26D5349B0040DCFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D5433D41481C9A144F66FF /* Pods-LoveDayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +675,7 @@
 		};
 		0892D76026D5349B0040DCFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD3B478725C9D1BDCCA5ACBD /* Pods-LoveDay-LoveDayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +695,7 @@
 		};
 		0892D76126D5349B0040DCFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1ED2DFC4DCE05EE5D908EB2 /* Pods-LoveDay-LoveDayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_LoveDayTests {
+  umbrella header "Pods-LoveDayTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
