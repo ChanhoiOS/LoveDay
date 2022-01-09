@@ -14,6 +14,9 @@
 		0892D73F26D5349B0040DCFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0892D73D26D5349B0040DCFB /* LaunchScreen.storyboard */; };
 		0892D74A26D5349B0040DCFB /* LoveDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0892D74926D5349B0040DCFB /* LoveDayTests.swift */; };
 		0892D75526D5349B0040DCFB /* LoveDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0892D75426D5349B0040DCFB /* LoveDayUITests.swift */; };
+		08E347A1278B0E110041582C /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E347A0278B0E110041582C /* NavigationController.swift */; };
+		08E347A2278B0E110041582C /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E347A0278B0E110041582C /* NavigationController.swift */; };
+		08E347A3278B0E110041582C /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E347A0278B0E110041582C /* NavigationController.swift */; };
 		08EBB565278944EB003DE052 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EBB564278944EB003DE052 /* MainView.swift */; };
 		08EBB566278944EB003DE052 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EBB564278944EB003DE052 /* MainView.swift */; };
 		08EBB567278944EB003DE052 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EBB564278944EB003DE052 /* MainView.swift */; };
@@ -56,6 +59,7 @@
 		0892D75026D5349B0040DCFB /* LoveDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0892D75426D5349B0040DCFB /* LoveDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveDayUITests.swift; sourceTree = "<group>"; };
 		0892D75626D5349B0040DCFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08E347A0278B0E110041582C /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		08EBB564278944EB003DE052 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		08EBB56827894567003DE052 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		3B15BD40F6E17626EE062D5B /* Pods_LoveDay_LoveDayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveDay_LoveDayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +134,7 @@
 				0892D74026D5349B0040DCFB /* Info.plist */,
 				08EBB564278944EB003DE052 /* MainView.swift */,
 				08EBB56827894567003DE052 /* MainViewModel.swift */,
+				08E347A0278B0E110041582C /* NavigationController.swift */,
 			);
 			path = LoveDay;
 			sourceTree = "<group>";
@@ -415,6 +420,7 @@
 			files = (
 				0892D73326D5349B0040DCFB /* AppDelegate.swift in Sources */,
 				08EBB565278944EB003DE052 /* MainView.swift in Sources */,
+				08E347A1278B0E110041582C /* NavigationController.swift in Sources */,
 				0892D73526D5349B0040DCFB /* SceneDelegate.swift in Sources */,
 				08EBB56927894567003DE052 /* MainViewModel.swift in Sources */,
 			);
@@ -425,6 +431,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0892D74A26D5349B0040DCFB /* LoveDayTests.swift in Sources */,
+				08E347A2278B0E110041582C /* NavigationController.swift in Sources */,
 				08EBB566278944EB003DE052 /* MainView.swift in Sources */,
 				08EBB56A27894567003DE052 /* MainViewModel.swift in Sources */,
 			);
@@ -435,6 +442,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0892D75526D5349B0040DCFB /* LoveDayUITests.swift in Sources */,
+				08E347A3278B0E110041582C /* NavigationController.swift in Sources */,
 				08EBB567278944EB003DE052 /* MainView.swift in Sources */,
 				08EBB56B27894567003DE052 /* MainViewModel.swift in Sources */,
 			);

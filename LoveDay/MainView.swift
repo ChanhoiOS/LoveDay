@@ -22,6 +22,7 @@ class MainView: UIViewController {
         super.viewDidLoad()
         
         self.configureUI()
+        print("들어오나")
 
     }
     
