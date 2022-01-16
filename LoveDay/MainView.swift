@@ -14,6 +14,7 @@ class MainView: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var dataFetchBtn: UIButton!
+    @IBOutlet weak var countLabel: UILabel!
     
     private let disposeBag = DisposeBag()
     private let viewModel = MainViewModel()
@@ -21,19 +22,20 @@ class MainView: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.configureUI()
-        print("들어오나")
+        configureRx()
 
     }
     
-    func configureUI() {
-        self.configureButton()
+    func configureRx() {
+        self.viewModel.input.getDate.onNext(())
+        
+        self.viewModel.output.setDate
+            .subscribe(onNext: { [weak self] dateCount in
+                self?.countLabel.text = "\(dateCount)"
+            }).disposed(by: disposeBag)
     }
+
     
-    func configureButton(){
-        self.dataFetchBtn.rx.tap
-            .bind(to: self.viewModel.input.fetchAction)
-            .disposed(by: self.disposeBag)
-    }
+    
 
 }
