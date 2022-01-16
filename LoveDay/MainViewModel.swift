@@ -28,6 +28,7 @@ class MainViewModel {
 
     struct Input {
         var getDate: PublishSubject<Void>
+       
     }
     
     struct Output {
@@ -42,6 +43,8 @@ class MainViewModel {
             .bind(onNext: { [weak self] _ in
                 self?.getDateInfo()
             }).disposed(by: disposebag)
+        
+     
     }
     
     func getDateInfo() {
@@ -57,7 +60,6 @@ class MainViewModel {
     func days(from date: Date) -> Int {
         return calendar.dateComponents([.day], from: date, to: currentDate).day! + 1
     }
-
     
     
 }

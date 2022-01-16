@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,32 +13,94 @@
             <objects>
                 <viewController storyboardIdentifier="MainView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="MainView" customModule="LoveDay" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQr-xq-0j3">
-                                <rect key="frame" x="174" y="362" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="bO5-Ng-tPZ">
+                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camera.badge.ellipsis" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="BeN-Up-0nZ">
+                                <rect key="frame" x="335" y="61" width="26" height="23.333333333333343"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="Ho8-Cp-mYa"/>
+                                    <constraint firstAttribute="height" constant="24" id="lbw-K8-jJ7"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQr-xq-0j3">
+                                <rect key="frame" x="101.66666666666669" y="138" width="172" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="dQS-A2-rT0"/>
+                                    <constraint firstAttribute="width" constant="172" id="dei-5H-Xb6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="찬호❤️예진" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gvk-ko-yvH">
+                                <rect key="frame" x="120.66666666666669" y="94" width="134" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="134" id="1tV-A1-iPr"/>
+                                    <constraint firstAttribute="height" constant="36" id="xhH-rh-IK0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar.badge.clock.rtl" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="hNF-dC-7sG">
+                                <rect key="frame" x="14.666666666666666" y="61.666666666666664" width="25.333333333333336" height="22.666666666666671"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="A1n-km-8vL"/>
+                                    <constraint firstAttribute="width" constant="24" id="uUS-4J-cqq"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M9d-Ef-qnA">
+                                <rect key="frame" x="325" y="44" width="50" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="0dE-4h-dCj"/>
+                                    <constraint firstAttribute="height" constant="40" id="eKA-KG-eLt"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="openCamera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RCa-UT-ue2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="M9d-Ef-qnA" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="5v5-tK-qMa"/>
+                            <constraint firstItem="hNF-dC-7sG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="Big-P2-Xit"/>
+                            <constraint firstItem="M9d-Ef-qnA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Cwd-yz-Eld"/>
+                            <constraint firstItem="bO5-Ng-tPZ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="GK5-nn-l9p"/>
+                            <constraint firstItem="bO5-Ng-tPZ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="OTl-XB-zKC"/>
+                            <constraint firstItem="RQr-xq-0j3" firstAttribute="top" secondItem="Gvk-ko-yvH" secondAttribute="bottom" constant="8" id="Yse-dv-hlc"/>
+                            <constraint firstItem="bO5-Ng-tPZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Yt7-on-Xvi"/>
+                            <constraint firstItem="hNF-dC-7sG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="bAc-4V-EPD"/>
+                            <constraint firstItem="BeN-Up-0nZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="dEm-8e-WJg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BeN-Up-0nZ" secondAttribute="trailing" constant="16" id="eB2-GF-tpQ"/>
+                            <constraint firstItem="Gvk-ko-yvH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="jnQ-n2-VAr"/>
+                            <constraint firstItem="Gvk-ko-yvH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kdc-BM-0oB"/>
+                            <constraint firstItem="RQr-xq-0j3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="slD-yK-UHD"/>
+                            <constraint firstItem="bO5-Ng-tPZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vj6-nD-8DO"/>
+                        </constraints>
                     </view>
                     <connections>
+                        <outlet property="backgroundImg" destination="bO5-Ng-tPZ" id="MBK-4d-cNU"/>
+                        <outlet property="cameraBtn" destination="M9d-Ef-qnA" id="LiJ-j3-Gnm"/>
                         <outlet property="countLabel" destination="RQr-xq-0j3" id="x3i-sp-edU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="709" y="-591"/>
+            <point key="canvasLocation" x="703.20000000000005" y="-591.87192118226608"/>
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="background" width="811" height="1440"/>
+        <image name="calendar.badge.clock.rtl" catalog="system" width="128" height="108"/>
+        <image name="camera.badge.ellipsis" catalog="system" width="128" height="92"/>
     </resources>
 </document>

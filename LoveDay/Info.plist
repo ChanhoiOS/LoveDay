@@ -55,12 +55,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>UISupportedInterfaceOrientations~ipad</key>
-	<array>
-		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationPortraitUpsideDown</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>사용자의 카메라 사용을 허용하시겠습니까?</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>사용자가 앨범에 접근하도록 허용하시겠습니까?</string>
 </dict>
 </plist>
