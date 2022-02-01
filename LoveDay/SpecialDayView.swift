@@ -1,13 +1,13 @@
 //
-//  SpecialDayViewController.swift
+//  SpecialDayView.swift
 //  LoveDay
 //
-//  Created by 이찬호 on 2022/01/18.
+//  Created by 이찬호 on 2022/02/01.
 //
 
 import UIKit
 
-class SpecialDayViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class SpecialDayView: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
    
     @IBOutlet weak var tableView: UITableView!
@@ -42,8 +42,8 @@ class SpecialDayViewController: UIViewController, UITableViewDelegate, UITableVi
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SpecialDayCell", for:  indexPath) as! SpecialDayCell
-        cell.spDay.text = specialDay[indexPath.row] + "❤️"
-        cell.subscribe.text = subscribe[indexPath.row]
+        cell.spDay.text = "❤️" + specialDay[indexPath.row]
+       // cell.subscribe.text = subscribe[indexPath.row]
         
         return cell
     }

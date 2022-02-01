@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		081099DE2796EAD40028C8C4 /* SpecialDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081099DD2796EAD40028C8C4 /* SpecialDayViewController.swift */; };
-		081099DF2796EAD40028C8C4 /* SpecialDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081099DD2796EAD40028C8C4 /* SpecialDayViewController.swift */; };
-		081099E02796EAD40028C8C4 /* SpecialDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081099DD2796EAD40028C8C4 /* SpecialDayViewController.swift */; };
+		0804381627A9337F0062CC89 /* SpecialDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0804381527A9337F0062CC89 /* SpecialDayView.swift */; };
+		0804381727A9337F0062CC89 /* SpecialDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0804381527A9337F0062CC89 /* SpecialDayView.swift */; };
+		0804381827A9337F0062CC89 /* SpecialDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0804381527A9337F0062CC89 /* SpecialDayView.swift */; };
 		081099E32796F4260028C8C4 /* SpecialDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081099E12796F4260028C8C4 /* SpecialDayCell.swift */; };
 		081099E42796F4260028C8C4 /* SpecialDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081099E12796F4260028C8C4 /* SpecialDayCell.swift */; };
 		081099E52796F4260028C8C4 /* SpecialDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081099E12796F4260028C8C4 /* SpecialDayCell.swift */; };
@@ -52,7 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		081099DD2796EAD40028C8C4 /* SpecialDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialDayViewController.swift; sourceTree = "<group>"; };
+		0804381527A9337F0062CC89 /* SpecialDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialDayView.swift; sourceTree = "<group>"; };
 		081099E12796F4260028C8C4 /* SpecialDayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialDayCell.swift; sourceTree = "<group>"; };
 		081099E22796F4260028C8C4 /* SpecialDayCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpecialDayCell.xib; sourceTree = "<group>"; };
 		0892D72F26D5349B0040DCFB /* LoveDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,9 +142,9 @@
 				0892D74026D5349B0040DCFB /* Info.plist */,
 				08EBB564278944EB003DE052 /* MainView.swift */,
 				08EBB56827894567003DE052 /* MainViewModel.swift */,
-				081099DD2796EAD40028C8C4 /* SpecialDayViewController.swift */,
 				081099E12796F4260028C8C4 /* SpecialDayCell.swift */,
 				081099E22796F4260028C8C4 /* SpecialDayCell.xib */,
+				0804381527A9337F0062CC89 /* SpecialDayView.swift */,
 			);
 			path = LoveDay;
 			sourceTree = "<group>";
@@ -431,10 +431,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0804381627A9337F0062CC89 /* SpecialDayView.swift in Sources */,
 				0892D73326D5349B0040DCFB /* AppDelegate.swift in Sources */,
 				08EBB565278944EB003DE052 /* MainView.swift in Sources */,
 				0892D73526D5349B0040DCFB /* SceneDelegate.swift in Sources */,
-				081099DE2796EAD40028C8C4 /* SpecialDayViewController.swift in Sources */,
 				081099E32796F4260028C8C4 /* SpecialDayCell.swift in Sources */,
 				08EBB56927894567003DE052 /* MainViewModel.swift in Sources */,
 			);
@@ -448,7 +448,7 @@
 				08EBB566278944EB003DE052 /* MainView.swift in Sources */,
 				08EBB56A27894567003DE052 /* MainViewModel.swift in Sources */,
 				081099E42796F4260028C8C4 /* SpecialDayCell.swift in Sources */,
-				081099DF2796EAD40028C8C4 /* SpecialDayViewController.swift in Sources */,
+				0804381727A9337F0062CC89 /* SpecialDayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,7 +460,7 @@
 				08EBB567278944EB003DE052 /* MainView.swift in Sources */,
 				08EBB56B27894567003DE052 /* MainViewModel.swift in Sources */,
 				081099E52796F4260028C8C4 /* SpecialDayCell.swift in Sources */,
-				081099E02796EAD40028C8C4 /* SpecialDayViewController.swift in Sources */,
+				0804381827A9337F0062CC89 /* SpecialDayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
