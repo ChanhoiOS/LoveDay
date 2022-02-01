@@ -28,6 +28,7 @@ class MainViewModel {
 
     struct Input {
         var getDate: PublishSubject<Void>
+        var getSpecial: PublishSubject<Void>
     }
     
     struct Output {
@@ -36,11 +37,15 @@ class MainViewModel {
     }
     
     init() {
-        self.input = Input(getDate: PublishSubject<Void>())
-        self.output = Output(setDate: BehaviorSubject<Int>(value: 0),specialDay: BehaviorSubject<[String]>(value: ["100, 200"]))
+        self.input = Input(getDate: PublishSubject<Void>(),getSpecial: PublishSubject<Void>())
+        self.output = Output(setDate: BehaviorSubject<Int>(value: 0),specialDay: BehaviorSubject<[String]>(value: [""]))
         self.input.getDate
             .bind(onNext: { [weak self] _ in
                 self?.getDateInfo()
+            }).disposed(by: disposebag)
+        self.input.getSpecial
+            .bind(onNext: { [weak self] _ in
+                self?.getSpecialInfo()
             }).disposed(by: disposebag)
     }
     
@@ -50,6 +55,11 @@ class MainViewModel {
         daysCount = days(from: startDate!)
         
         self.output.setDate.onNext(daysCount)
+    }
+    
+    func getSpecialInfo() {
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        let startDate = dateFormatter.date(from: "2020-11-14")
         
         for i in 0..<1001 {
             if i % 100 == 0 {

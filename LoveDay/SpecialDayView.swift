@@ -13,7 +13,7 @@ class SpecialDayView: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet weak var tableView: UITableView!
     
     var specialDay = [String]()
-    var subscribe = ["100일","200일","300일","1 주년","400일","500일","600일","700일","2 주년","800일","900일", "1000일"]
+    var subscribe = ["만난 날", "100일","200일","300일","1 주년","400일","500일","600일","700일","2 주년","800일","900일", "1000일"]
     
     override func viewDidLoad() {
         
@@ -29,7 +29,7 @@ class SpecialDayView: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func configureRx() {
-        
+        print("special: ",specialDay)
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -43,7 +43,7 @@ class SpecialDayView: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SpecialDayCell", for:  indexPath) as! SpecialDayCell
         cell.spDay.text = "❤️" + specialDay[indexPath.row]
-       // cell.subscribe.text = subscribe[indexPath.row]
+        cell.subscribe.text = subscribe[indexPath.row]
         
         return cell
     }

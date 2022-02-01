@@ -56,6 +56,7 @@ class MainView: UIViewController {
     
     func configureRx() {
         self.viewModel.input.getDate.onNext(())
+        self.viewModel.input.getSpecial.onNext(())
         
         self.viewModel.output.setDate
             .subscribe(onNext: { [weak self] dateCount in
