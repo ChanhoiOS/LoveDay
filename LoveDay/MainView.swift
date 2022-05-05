@@ -51,7 +51,7 @@ class MainView: UIViewController {
         profileRight.clipsToBounds = true
         profileRight.layer.cornerRadius = profileRight.frame.height/2
         
-        settingImage()
+        settingImage() 
     }
     
     func configureRx() {
