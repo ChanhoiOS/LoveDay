@@ -15,7 +15,7 @@ protocol MainViewModelType {
     associatedtype Output
 }
 
-class MainViewModel {
+class MainViewModel: MainViewModelType {
     var input: Input
     var output: Output
     let disposebag = DisposeBag()
